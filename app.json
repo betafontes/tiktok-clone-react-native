@@ -18,6 +18,12 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.robertafontes.tiktokclonereactnative"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2fc184f1-1314-48fa-870b-231c47cc23e4"
       }
     }
   }
