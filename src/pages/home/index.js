@@ -1,4 +1,6 @@
 import { useState, useRef } from "react"
+import "firebase/storage"
+import "firebase/app"
 
 import {
   View,
@@ -19,19 +21,22 @@ export function Home() {
   let feedItems = [
     {
       id: "1",
-      video: "/assets/video-1.mp4",
+      video:
+        "https://firebasestorage.googleapis.com/v0/b/tiktok-clone-react-native.appspot.com/o/videos%2Fvideo-1.mp4?alt=media&token=31dd502e-65e9-4a27-a37d-dffd2798a4b3",
       name: "@videoilustrativo",
       description: "aprendendo os estudos sobre react native",
     },
     {
       id: "2",
-      video: "/assets/video-2.mp4",
+      video:
+        "https://firebasestorage.googleapis.com/v0/b/tiktok-clone-react-native.appspot.com/o/videos%2Fvideo-2.mp4?alt=media&token=5ca6d868-0b14-43e7-a38d-5f49485e448c",
       name: "@videoilustrativo",
       description: "aprendendo os estudos sobre react native",
     },
     {
       id: "3",
-      video: "/assets/video-3.mp4",
+      video:
+        "https://firebasestorage.googleapis.com/v0/b/tiktok-clone-react-native.appspot.com/o/videos%2Fvideo-3.mp4?alt=media&token=695e0589-1920-44e7-aacb-3b40a0f3499d",
       name: "@videoilustrativo",
       description: "aprendendo os estudos sobre react native",
     },
